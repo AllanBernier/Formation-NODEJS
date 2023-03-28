@@ -5,7 +5,7 @@ const product_router = require('./router/productRouter')
 const task_router = require('./router/taskRouter')
 const game_router = require('./router/gameRouter')
 
-app.listen(3000, () => {
+const server = app.listen(3000, () => {
     console.log("App listening on port 3000 !")
 })
 
@@ -17,7 +17,10 @@ app.use('/game',game_router)
 
 
 
-
+module.exports = {
+    app,
+    server 
+}
 
 
 

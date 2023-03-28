@@ -1,6 +1,5 @@
 const fizzbuzz = require("../src/fizzbuzz")
 
-
 describe('Test de la metchode fizz buzz', () => { 
     
     it('Should return 1 when send 1', () => {

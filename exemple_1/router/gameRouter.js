@@ -8,10 +8,12 @@ const {
     resetScore
 } = require("../controller/gameController");
 
+const actionMiddleWare = require("../middleware/actionRequest")
+
 
 router.get('/score', getScore)
 
-router.post('/:action', play)
+router.post('/:action',actionMiddleWare, play)
 
 router.put('/score', updateScore)
 

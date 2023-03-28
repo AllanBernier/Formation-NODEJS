@@ -1,16 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1679991443118" clover="3.2.0">
-  <project timestamp="1679991443118" name="All files">
-    <metrics statements="8" coveredstatements="8" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1" elements="15" coveredelements="15" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
+<coverage generated="1680005076990" clover="3.2.0">
+  <project timestamp="1680005076990" name="All files">
+    <metrics statements="25" coveredstatements="25" conditionals="13" coveredconditionals="13" methods="3" coveredmethods="3" elements="41" coveredelements="41" complexity="0" loc="25" ncloc="25" packages="1" files="2" classes="2"/>
+    <file name="calc.js" path="C:\Users\Allan\Documents\Cleaf-Web\Clients\3 - Formateur\Cours\NODEJS\GIT\Formation-NODEJS\test-jest\src\calc.js">
+      <metrics statements="17" coveredstatements="17" conditionals="7" coveredconditionals="7" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="13" type="cond" truecount="2" falsecount="0"/>
+      <line num="4" count="11" type="stmt"/>
+      <line num="6" count="11" type="stmt"/>
+      <line num="7" count="22" type="stmt"/>
+      <line num="8" count="22" type="stmt"/>
+      <line num="9" count="22" type="stmt"/>
+      <line num="11" count="11" type="stmt"/>
+      <line num="14" count="2" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="19" count="22" type="cond" truecount="5" falsecount="0"/>
+      <line num="21" count="9" type="stmt"/>
+      <line num="23" count="4" type="stmt"/>
+      <line num="25" count="4" type="stmt"/>
+      <line num="27" count="4" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+    </file>
     <file name="fizzbuzz.js" path="C:\Users\Allan\Documents\Cleaf-Web\Clients\3 - Formateur\Cours\NODEJS\GIT\Formation-NODEJS\test-jest\src\fizzbuzz.js">
       <metrics statements="8" coveredstatements="8" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
       <line num="1" count="1" type="stmt"/>
-      <line num="2" count="8" type="stmt"/>
-      <line num="4" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="2" count="9" type="stmt"/>
+      <line num="4" count="9" type="cond" truecount="2" falsecount="0"/>
       <line num="5" count="5" type="stmt"/>
-      <line num="7" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="9" type="cond" truecount="2" falsecount="0"/>
       <line num="8" count="4" type="stmt"/>
-      <line num="11" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="11" count="9" type="cond" truecount="2" falsecount="0"/>
       <line num="15" count="1" type="stmt"/>
     </file>
   </project>

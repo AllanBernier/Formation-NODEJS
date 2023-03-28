@@ -5,7 +5,7 @@ const getScore = (req, res) =>{
     res.json( service.getScore() )
 }
 const play = (req, res) =>{
-    res.send(service.play(req.params.action))
+    res.status(201).send(service.play(req.params.action))
 }
 const updateScore = (req, res) =>{
 
