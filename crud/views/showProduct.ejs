@@ -1,0 +1,36 @@
+
+<%- include("_header") %>
+
+<h1>Bla bla bla</h1>
+
+<div class="table-responsive-sm">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>name</th>
+                <th>price</th>
+                <th>description</th>
+                <th class="d-print-none">
+                    <a href="/create" class="btn btn-sm btn-success">Create</a>                    
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <% for(let i = 0; i < products.length; i++) {%>
+                <tr>
+                    <th><%=  products[i].id %> </th>
+                    <th><%= products[i].name %> </th>
+                    <th><%= products[i].price %> </th>
+                    <th><%= products[i].description %> </th>
+                    <th class="d-print-none">
+                        <a href="/edit/<%= products[i].id %>" class="btn btn-sm btn-warning">Modifier</a>
+                        <a href="/delete/<%= products[i].id %>" class="btn btn-sm btn-danger">Supprimer</a>
+                    </th>
+                </tr>
+            <% } %>    
+        </tbody>
+    </table>    
+</div>
+
+<%- include("_footer") %>
