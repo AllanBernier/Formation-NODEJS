@@ -14,7 +14,7 @@ mongoose.connect(process.env.MONGO_URI)
 }))
 .catch((err) => console.log("Connected to db failed"))
 const corsOption = {
-    origin: ['http://localhost:3000'],
+    origin: ['http://localhost:5432'],
 };
 
 app.use(cors(corsOption))
